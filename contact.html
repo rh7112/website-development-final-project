@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+   Black&#44;s Concrete Construction - foundations
+   Filename: foundation.html
+   
+   Author: Ryan Hurd
+   Date: 3/1/2018
+   Final Project
+-->
+
+	<head>
+		<title>Contact Black&rsquo;s Concrete Construction</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Black's Concrete Construction offers expert concrete services, that you can rely on. This entails anything from flat-work, foundations, to decorative concrete. For over 30 years we've served the Northern Indiana area, and provided and maintained concrete for many customers.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="scripts/modernizr-custom.js"></script>
+		
+		<link rel="stylesheet" href="css/styles-min.css">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android.png">
+	</head>
+	<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=184894305566911&autoLogAppEvents=1';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+		<div class="container">
+			<p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+			<div class="header">
+				<header>
+					<h1><a href="index.html"><img class="blacklogo" src="images/blacks-concrete-logo.png" width="368" height="65" 
+					alt="Black&#39;s Concrete Construction"></a></h1>
+				</header>
+			</div>
+			<nav class="sitenavigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="decorative.html">Decorative Concrete</a></li>
+					<li><a href="flatwork.html">Flat&ndash;work</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<div class="fb-like" data-href="https://www.facebook.com/pages/Blacks-Concrete-Construction/132538306797338" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+			</nav>
+			<article id="contentstart">
+				<div> <!-- class="container" used to be here -->
+					<form action="results.html">
+					<h2>Want to get ahold of us?</h2>
+					<p class="fill">If you're interested in hiring us for a project, please fill out this form! <!-- <button class="click" type="button" 
+					onclick="openForm">Click Here!</button>--></p>
+						
+						<div id="form">
+						<fieldset class="contactinfo">
+							<legend>Contact Information</legend>
+							<label for="firstinput">
+								First Name
+								<input type="text" name="name" id="firstinput" placeholder="First name" required>
+							</label>
+							
+							<label for="lastinput">
+								Last name
+								<input type="text" name="name" id="lastinput" placeholder="Last name" required>
+							</label>
+							<label for="emailinput">
+								Email
+								<input type="email" name="email" id="emailinput" placeholder="address@example.com" required>
+							</label>
+							<label for="phoneinput">
+								Phone
+								<input type="tel" name="phone" id="phoneinput" required>
+							</label>
+						</fieldset>
+						<fieldset class="reservespot">
+							<legend>Project Information</legend>
+							<p>We stay quite busy&#44; especially in the summer months! So schedule the start date of your 
+							project well in advance. A year in advance is a good place to start. This allows for time to 
+							have meetings&#44; planning&#44; etc. The winter months slow us down quite a bit&#44; due to inclement weather.
+							As well as putting blankets on concrete&#44; and trying to remain safe on job-sites.</p>
+							<p>Keep in mind that concrete can freeze!</p>
+							<p>If the weather is below 0&deg; or rainy, we will likely not being doing anything for that day. (Unless the job-site is indoors&#44; of course.)</p>
+							<p>Take into consideration&#44; the more extensive the project&#44; the more time it will take to plan everything out.</p>
+							<br>
+							
+							<p>If You're interested in getting some conrete done, click the "Schedule Project" button in order to get started.</p>
+							<button class ="sched" type="button" onclick="scheduleProject()">Schedule Project</button>
+							<div id="project">
+							<fieldset class="schedule">
+								<legend>Start Date</legend>
+									<div class="date-picker">
+										<label for="start-month">Start Month
+										</label>
+										<select id="start-month" name="start-month" required>
+											<option value="01">January</option>
+											<option value="02">February</option>
+											<option value="03">March</option>
+											<option value="04">April</option>
+											<option value="05">May</option>
+											<option value="06">June</option>
+											<option value="07">July</option>
+											<option value="08">August</option>
+											<option value="09">September</option>
+											<option value="10">October</option>
+											<option value="11">November</option>
+											<option value="12">December</option>
+										</select>
+										
+										<br>
+										
+										<label for="start-day">Day of Start
+										</label>
+										<select id="start-day" name="start-day" required>
+											<option value="01">1</option>
+											<option value="02">2</option>
+											<option value="03">3</option>
+											<option value="04">4</option>
+											<option value="05">5</option>
+											<option value="06">6</option>
+											<option value="07">7</option>
+											<option value="08">8</option>
+											<option value="09">9</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+											<option value="13">13</option>
+											<option value="14">14</option>
+											<option value="15">15</option>
+											<option value="16">16</option>
+											<option value="17">17</option>
+											<option value="18">18</option>
+											<option value="19">19</option>
+											<option value="20">20</option>
+											<option value="21">21</option>
+											<option value="22">22</option>
+											<option value="23">23</option>
+											<option value="24">24</option>
+											<option value="25">25</option>
+											<option value="26">26</option>
+											<option value="27">27</option>
+											<option value="28">28</option>
+											<option value="29">29</option>
+											<option value="30">30</option>
+											<option value="31">31</option>
+										</select>
+										
+										<br> 
+										
+										<label for="start-year">Year to Start
+										</label>
+										<select id="start-year" name="start-year" required>
+											<option value="2019">2019</option>
+											<option value="2020">2020</option>
+											<option value="2021">2021</option>
+											<option value="2022">2022</option>
+											<option value="2023">2023</option>
+											<option value="2024">2024</option>
+											<option value="2025">2025</option>
+											<option value="2026">2026</option>
+										</select>
+									</div>
+							</fieldset>	
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Additional Information</legend>
+							<label for="feedback"> Tell us how we're doing, if you have any requests, or if you'd just like to say "Hi!"
+								<textarea name="feedback" id="feedback" rows="6" cols="65"></textarea>
+							</label>
+						</fieldset>
+						<p class="forward">We look forward to talking to you!</p>
+						<fieldset class="submitbutton">
+							<input type="submit" id="submit" value="Submit" required>						
+						</fieldset>
+						</div>
+					</form>
+				</div>
+			</article>
+			<footer id="textbox" class="bcclink" itemtype="http://schema.org/LocalBusiness" itemscope>
+				<span itemprop="https://schema.org/Organization" itemscope>
+					<span itemprop="sponsor">
+					<figure class="alignleft">
+						<span itemprop="logo">
+							<p><a href="http://kuert.com/"><img src="images/kuert-logo.png" width="60" height="25"
+							alt="Keurt&#39;s Concrete" class="kuert"></a></p>
+							<p><a href="https://www.butterfieldcolor.com/"><img src="images/butterfield-color-logo.png" width="60" height="25" 
+							alt="Butterfield Color" class="bfcl"></a></p>
+						</span>
+					</figure>
+					</span>
+					<span itemprop="founder"><p class="alignright">Don Black&#44; Proprietor/Partner</p></span>
+				</span>
+				<span itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+					<span itemprop="streetAddress"><p class="alignright1"><a href="https://goo.gl/QLCs1f">4883 E 650 N.</a></span>
+					<span><a class="loz">&loz;</a></span>
+					<span itemprop="addressLocality"><a href="https://goo.gl/QLCs1f">Leesburg,</a></span>
+					<span itemprop="addressRegion">IN</span> 
+					<span itemprop="postalCode">46538</span>
+				</span>
+				
+				<!-- <br><br><br><br> -->
+				<span itemprop="telephone"><p class="alignright2">(574) 551-9374</p></span>
+				<p class="report"><a href="report.html">Report</a></p>
+			</footer>
+			<script src="scripts/script.js"></script>
+		</div>
+	</body>

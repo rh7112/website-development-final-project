@@ -1,0 +1,27 @@
+Author: Ryan Hurd
+Date: 5/10/2018
+Final Project 
+
+Black's Concrete Construction
+Website Testing Plan
+
+1. Feedback
+	With user on the home page, index.html, ask
+	a. "Based just on this page, describe the business within three words."
+	b. "Would you hire the owner of this business to do concrete construction for you?"
+	c. "Would you expect the business owner to be responsible for things like your yard?"
+	d. "If you're familiar with any local, or commercial concrete companies, rank this one in respect to those: wouldn't reccomend, would reccomend, highly reccomend."
+	e. "Please describe other impressions given by the construction company within this web page."
+	
+2. Tasks
+	"Locate the following:" 
+	a. "Different types of concrete offered."
+	b. "Different types of stamp patterns."
+	c. "Contact Us information."
+	d. "Both owner's/proprietors name's/proprietors."
+
+3. "Based on this site, would you hire this company to do any concrete for you? (Definitely Not, Unlikely, Likely, Definitely) Specify weather it'd be plain concrete, or stamped."
+
+4. "Do you have any other feedback, or insights into this website?"
+
+"Thank-you very much for your time, and your help!"
